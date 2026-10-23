@@ -25,7 +25,7 @@ git commit -m "Add generated sample dataset"
 
 Create a public repository on GitHub. If you have not created a README on GitHub, leave that option unchecked to avoid a merge conflict. Then connect and push your local repository (replace the URL with your own repository URL):
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+git remote add origin https://github.com/Hana-kiros27/Statisticalcomputing-sample.git
 git push -u origin main
 To view your commit history:
 git log --oneline
