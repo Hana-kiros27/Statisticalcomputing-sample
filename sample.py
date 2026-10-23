@@ -1,6 +1,7 @@
+"""
 Sample Data Script
 Creates a small sample dataset and saves it to sample_data.csv.
-Run with: python sample_data.py
+Run with: python sample.py
 """
 
 import csv
@@ -14,6 +15,7 @@ DATA = [
     {"id": 5, "name": "Liya", "age": 21, "department": "Data Science"},
 ]
 
+
 def main():
     output_file = Path(__file__).with_name("sample_data.csv")
     fieldnames = ["id", "name", "age", "department"]
@@ -24,6 +26,7 @@ def main():
         writer.writerows(DATA)
 
     print(f"Created {output_file.name} with {len(DATA)} records.")
+
 
 if __name__ == "__main__":
     main()
